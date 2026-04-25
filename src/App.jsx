@@ -47,11 +47,11 @@ const ArrowSVG = () => (
 )
 
 const HouseLogo = () => (
-  <img src="./logo.jpg" alt="Melancholic House" style={{width:32,height:32,objectFit:'contain'}}/>
+  <img src="public/logo.jpg" alt="Melancholic House" style={{width:32,height:32,objectFit:'contain'}}/>
 )
 
 const BannerSVG = () => (
-  <img src="./banner.jpg" alt="" style={{width:'100%',display:'block',objectFit:'cover',maxHeight:420}}/>
+  <img src="public/banner.jpg" alt="" style={{width:'100%',display:'block',objectFit:'cover',maxHeight:420}}/>
 )
 
 export default function App() {
