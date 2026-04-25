@@ -13,21 +13,21 @@ const T = {
     cta_title: "Ready to enter?",
     cta_sub: "Join us on Discord.",
     footer_alt_label: "Backup link",
-    footer_copy: "© 2025 Melancholic House",
+    footer_copy: "© 2026 Melancholic House",
   },
   ru: {
     discord_label: "Discord Сервер",
     tagline: "Место для честных.",
     subtitle: "Где разговоры дышат.",
-    join: "Войти в Дом",
+    join: "Войти в хаус",
     about_label: "О нас",
     about_title: "Что такое Melancholic House?",
     about_text: "Melancholic House — Discord сервер для тех, кто ценит настоящее общение. Минимум правил, максимум свободы — современное пространство для творчества, общения и просто существования без лишнего шума и осуждения.",
     features: ["Свобода самовыражения", "Минимальная модерация", "Творческий обмен", "Современное сообщество"],
-    cta_title: "Готов войти?",
+    cta_title: "Желаете войти?",
     cta_sub: "Присоединяйся в Discord.",
     footer_alt_label: "Запасная ссылка",
-    footer_copy: "© 2025 Melancholic House",
+    footer_copy: "© 2026 Melancholic House",
   }
 }
 
