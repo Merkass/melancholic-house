@@ -46,33 +46,12 @@ const ArrowSVG = () => (
   </svg>
 )
 
-const HouseLogoSVG = () => (
-  <svg viewBox="0 0 30 30" fill="none" width="26" height="26" style={{ flexShrink: 0 }}>
-    <path d="M3 13.5L15 3L27 13.5V28H3V13.5Z" stroke="#ede9e3" strokeWidth="1" fill="none"/>
-    <rect x="11" y="19" width="8" height="9" stroke="#ede9e3" strokeWidth="0.8" fill="none"/>
-    <line x1="15" y1="3" x2="15" y2="0.5" stroke="#ede9e3" strokeWidth="0.8" opacity="0.35"/>
-    <rect x="4" y="19" width="5" height="5" stroke="#ede9e3" strokeWidth="0.6" fill="none" opacity="0.45"/>
-    <rect x="21" y="19" width="5" height="5" stroke="#ede9e3" strokeWidth="0.6" fill="none" opacity="0.45"/>
-  </svg>
+const HouseLogo = () => (
+  <img src="./logo.jpg" alt="Melancholic House" style={{width:32,height:32,objectFit:'contain'}}/>
 )
 
 const BannerSVG = () => (
-  <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: 'auto', display: 'block' }}>
-    <rect width="1200" height="420" fill="#0d0d0d"/>
-    {stars.map((s, i) => (
-      <circle key={i} cx={s.cx} cy={s.cy} r={s.r} fill="white" opacity={s.opacity}/>
-    ))}
-    <circle cx="150" cy="105" r="56" fill="none" stroke="white" strokeWidth="0.6" opacity="0.4"/>
-    <circle cx="169" cy="95" r="56" fill="#0d0d0d"/>
-    <polygon points="600,125 450,282 750,282" fill="none" stroke="white" strokeWidth="0.8" opacity="0.28"/>
-    <rect x="465" y="282" width="270" height="138" fill="none" stroke="white" strokeWidth="0.8" opacity="0.28"/>
-    <rect x="558" y="324" width="84" height="96" fill="none" stroke="white" strokeWidth="0.5" opacity="0.2"/>
-    <rect x="480" y="302" width="50" height="50" fill="none" stroke="white" strokeWidth="0.4" opacity="0.16"/>
-    <rect x="670" y="302" width="50" height="50" fill="none" stroke="white" strokeWidth="0.4" opacity="0.16"/>
-    <line x1="0" y1="410" x2="370" y2="410" stroke="white" strokeWidth="0.3" opacity="0.09"/>
-    <line x1="830" y1="410" x2="1200" y2="410" stroke="white" strokeWidth="0.3" opacity="0.09"/>
-    <text x="600" y="398" textAnchor="middle" fill="white" opacity="0.022" fontSize="210" fontFamily="Georgia,serif" letterSpacing="22">HOUSE</text>
-  </svg>
+  <img src="./banner.jpg" alt="" style={{width:'100%',display:'block',objectFit:'cover',maxHeight:420}}/>
 )
 
 export default function App() {
